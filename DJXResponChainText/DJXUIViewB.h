@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DJXUIViewB.h
 //  DJXResponChainText
 //
 //  Created by ioser on 2018/12/18.
@@ -7,9 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
-
+#import "DJXUIView.h"
+@interface DJXUIViewB : DJXUIView
 
 @end
-

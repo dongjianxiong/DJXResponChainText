@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5FBD5BECE49C3C867063B21C /* local.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5FBD524BF3D933EBD206E18C /* local.jpeg */; };
+		5FBD5D7E8ABE09D07794E896 /* haizeiwang.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5FBD55157513BDBACE42CA3E /* haizeiwang.jpeg */; };
 		92F0B1E621C8CE7500F55FC3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92F0B1E521C8CE7500F55FC3 /* AppDelegate.m */; };
-		92F0B1E921C8CE7500F55FC3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92F0B1E821C8CE7500F55FC3 /* ViewController.m */; };
+		92F0B1E921C8CE7500F55FC3 /* DJXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92F0B1E821C8CE7500F55FC3 /* DJXViewController.m */; };
 		92F0B1EC21C8CE7500F55FC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92F0B1EA21C8CE7500F55FC3 /* Main.storyboard */; };
 		92F0B1EE21C8CE7600F55FC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92F0B1ED21C8CE7600F55FC3 /* Assets.xcassets */; };
 		92F0B1F121C8CE7600F55FC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92F0B1EF21C8CE7600F55FC3 /* LaunchScreen.storyboard */; };
 		92F0B1F421C8CE7600F55FC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92F0B1F321C8CE7600F55FC3 /* main.m */; };
 		92F0B1FE21C8CE7600F55FC3 /* DJXResponChainTextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92F0B1FD21C8CE7600F55FC3 /* DJXResponChainTextTests.m */; };
 		92F0B20921C8CE7600F55FC3 /* DJXResponChainTextUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92F0B20821C8CE7600F55FC3 /* DJXResponChainTextUITests.m */; };
+		92F0B21821C8CF0000F55FC3 /* DJXUIViewA.m in Sources */ = {isa = PBXBuildFile; fileRef = 92F0B21721C8CF0000F55FC3 /* DJXUIViewA.m */; };
+		92F0B21B21C8CF1100F55FC3 /* DJXUIViewB.m in Sources */ = {isa = PBXBuildFile; fileRef = 92F0B21A21C8CF1100F55FC3 /* DJXUIViewB.m */; };
+		92F0B21E21C8CF2400F55FC3 /* DJXUIViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = 92F0B21D21C8CF2400F55FC3 /* DJXUIViewC.m */; };
+		92F0B22121C8CF3900F55FC3 /* DJXUIViewD.m in Sources */ = {isa = PBXBuildFile; fileRef = 92F0B22021C8CF3900F55FC3 /* DJXUIViewD.m */; };
+		92F0B22421C8CF5600F55FC3 /* DJXUIButtonE.m in Sources */ = {isa = PBXBuildFile; fileRef = 92F0B22321C8CF5600F55FC3 /* DJXUIButtonE.m */; };
+		92F0B22721C8CF6700F55FC3 /* DJXUIButtonF.m in Sources */ = {isa = PBXBuildFile; fileRef = 92F0B22621C8CF6700F55FC3 /* DJXUIButtonF.m */; };
+		92F0B22A21C8D04F00F55FC3 /* DJXUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92F0B22921C8D04F00F55FC3 /* DJXUIView.m */; };
+		92F0B22D21C91A7600F55FC3 /* DJXUITapGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 92F0B22C21C91A7600F55FC3 /* DJXUITapGestureRecognizer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +45,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5FBD524BF3D933EBD206E18C /* local.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = local.jpeg; sourceTree = "<group>"; };
+		5FBD55157513BDBACE42CA3E /* haizeiwang.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = haizeiwang.jpeg; sourceTree = "<group>"; };
 		92F0B1E121C8CE7500F55FC3 /* DJXResponChainText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DJXResponChainText.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92F0B1E421C8CE7500F55FC3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		92F0B1E521C8CE7500F55FC3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		92F0B1E721C8CE7500F55FC3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		92F0B1E821C8CE7500F55FC3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		92F0B1E721C8CE7500F55FC3 /* DJXViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJXViewController.h; sourceTree = "<group>"; };
+		92F0B1E821C8CE7500F55FC3 /* DJXViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJXViewController.m; sourceTree = "<group>"; };
 		92F0B1EB21C8CE7500F55FC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		92F0B1ED21C8CE7600F55FC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92F0B1F021C8CE7600F55FC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +63,22 @@
 		92F0B20421C8CE7600F55FC3 /* DJXResponChainTextUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DJXResponChainTextUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92F0B20821C8CE7600F55FC3 /* DJXResponChainTextUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJXResponChainTextUITests.m; sourceTree = "<group>"; };
 		92F0B20A21C8CE7600F55FC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92F0B21621C8CF0000F55FC3 /* DJXUIViewA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJXUIViewA.h; sourceTree = "<group>"; };
+		92F0B21721C8CF0000F55FC3 /* DJXUIViewA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJXUIViewA.m; sourceTree = "<group>"; };
+		92F0B21921C8CF1100F55FC3 /* DJXUIViewB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJXUIViewB.h; sourceTree = "<group>"; };
+		92F0B21A21C8CF1100F55FC3 /* DJXUIViewB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJXUIViewB.m; sourceTree = "<group>"; };
+		92F0B21C21C8CF2400F55FC3 /* DJXUIViewC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJXUIViewC.h; sourceTree = "<group>"; };
+		92F0B21D21C8CF2400F55FC3 /* DJXUIViewC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJXUIViewC.m; sourceTree = "<group>"; };
+		92F0B21F21C8CF3900F55FC3 /* DJXUIViewD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJXUIViewD.h; sourceTree = "<group>"; };
+		92F0B22021C8CF3900F55FC3 /* DJXUIViewD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJXUIViewD.m; sourceTree = "<group>"; };
+		92F0B22221C8CF5600F55FC3 /* DJXUIButtonE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJXUIButtonE.h; sourceTree = "<group>"; };
+		92F0B22321C8CF5600F55FC3 /* DJXUIButtonE.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJXUIButtonE.m; sourceTree = "<group>"; };
+		92F0B22521C8CF6700F55FC3 /* DJXUIButtonF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJXUIButtonF.h; sourceTree = "<group>"; };
+		92F0B22621C8CF6700F55FC3 /* DJXUIButtonF.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJXUIButtonF.m; sourceTree = "<group>"; };
+		92F0B22821C8D04F00F55FC3 /* DJXUIView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJXUIView.h; sourceTree = "<group>"; };
+		92F0B22921C8D04F00F55FC3 /* DJXUIView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJXUIView.m; sourceTree = "<group>"; };
+		92F0B22B21C91A7600F55FC3 /* DJXUITapGestureRecognizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJXUITapGestureRecognizer.h; sourceTree = "<group>"; };
+		92F0B22C21C91A7600F55FC3 /* DJXUITapGestureRecognizer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJXUITapGestureRecognizer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,13 +131,31 @@
 			children = (
 				92F0B1E421C8CE7500F55FC3 /* AppDelegate.h */,
 				92F0B1E521C8CE7500F55FC3 /* AppDelegate.m */,
-				92F0B1E721C8CE7500F55FC3 /* ViewController.h */,
-				92F0B1E821C8CE7500F55FC3 /* ViewController.m */,
+				92F0B1E721C8CE7500F55FC3 /* DJXViewController.h */,
+				92F0B1E821C8CE7500F55FC3 /* DJXViewController.m */,
 				92F0B1EA21C8CE7500F55FC3 /* Main.storyboard */,
 				92F0B1ED21C8CE7600F55FC3 /* Assets.xcassets */,
 				92F0B1EF21C8CE7600F55FC3 /* LaunchScreen.storyboard */,
 				92F0B1F221C8CE7600F55FC3 /* Info.plist */,
 				92F0B1F321C8CE7600F55FC3 /* main.m */,
+				92F0B21621C8CF0000F55FC3 /* DJXUIViewA.h */,
+				92F0B21721C8CF0000F55FC3 /* DJXUIViewA.m */,
+				92F0B21921C8CF1100F55FC3 /* DJXUIViewB.h */,
+				92F0B21A21C8CF1100F55FC3 /* DJXUIViewB.m */,
+				92F0B21C21C8CF2400F55FC3 /* DJXUIViewC.h */,
+				92F0B21D21C8CF2400F55FC3 /* DJXUIViewC.m */,
+				92F0B21F21C8CF3900F55FC3 /* DJXUIViewD.h */,
+				92F0B22021C8CF3900F55FC3 /* DJXUIViewD.m */,
+				92F0B22221C8CF5600F55FC3 /* DJXUIButtonE.h */,
+				92F0B22321C8CF5600F55FC3 /* DJXUIButtonE.m */,
+				92F0B22521C8CF6700F55FC3 /* DJXUIButtonF.h */,
+				92F0B22621C8CF6700F55FC3 /* DJXUIButtonF.m */,
+				92F0B22821C8D04F00F55FC3 /* DJXUIView.h */,
+				92F0B22921C8D04F00F55FC3 /* DJXUIView.m */,
+				92F0B22B21C91A7600F55FC3 /* DJXUITapGestureRecognizer.h */,
+				92F0B22C21C91A7600F55FC3 /* DJXUITapGestureRecognizer.m */,
+				5FBD55157513BDBACE42CA3E /* haizeiwang.jpeg */,
+				5FBD524BF3D933EBD206E18C /* local.jpeg */,
 			);
 			path = DJXResponChainText;
 			sourceTree = "<group>";
@@ -238,6 +284,8 @@
 				92F0B1F121C8CE7600F55FC3 /* LaunchScreen.storyboard in Resources */,
 				92F0B1EE21C8CE7600F55FC3 /* Assets.xcassets in Resources */,
 				92F0B1EC21C8CE7500F55FC3 /* Main.storyboard in Resources */,
+				5FBD5D7E8ABE09D07794E896 /* haizeiwang.jpeg in Resources */,
+				5FBD5BECE49C3C867063B21C /* local.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +310,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92F0B1E921C8CE7500F55FC3 /* ViewController.m in Sources */,
+				92F0B1E921C8CE7500F55FC3 /* DJXViewController.m in Sources */,
 				92F0B1F421C8CE7600F55FC3 /* main.m in Sources */,
+				92F0B21B21C8CF1100F55FC3 /* DJXUIViewB.m in Sources */,
+				92F0B21E21C8CF2400F55FC3 /* DJXUIViewC.m in Sources */,
+				92F0B22121C8CF3900F55FC3 /* DJXUIViewD.m in Sources */,
+				92F0B22D21C91A7600F55FC3 /* DJXUITapGestureRecognizer.m in Sources */,
 				92F0B1E621C8CE7500F55FC3 /* AppDelegate.m in Sources */,
+				92F0B22421C8CF5600F55FC3 /* DJXUIButtonE.m in Sources */,
+				92F0B22721C8CF6700F55FC3 /* DJXUIButtonF.m in Sources */,
+				92F0B21821C8CF0000F55FC3 /* DJXUIViewA.m in Sources */,
+				92F0B22A21C8D04F00F55FC3 /* DJXUIView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
